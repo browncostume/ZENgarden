@@ -1,0 +1,158 @@
+/* css Zen Garden default style v1.02 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+/* This file based on 'Tranquille' by Dave Shea */
+/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
+/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
+
+/* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
+
+
+/* basic elements */
+html {
+	margin: 0;
+	padding: 0;
+	max-width: 1000px;
+	}
+body { 
+	max-width: 1000px;
+	font: 'Comic Sans MS', cursive, sans-serif;
+	line-height: 1.88889;
+	color: #d9d9f9; 
+	background: #001a33 ; 
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	}
+p { 
+	margin-top: 0; 
+	text-align: justify;
+	}
+h3 { 
+	font: italic normal 1.2em comic, sans-serif;
+	
+padding: 10 0 0 0;
+	margin: 0 0 0 0; 
+	color: #e9e9ea;
+	width: 200px;
+	}
+a:link { 
+	font-weight: bold; 
+	text-decoration: underline; 
+	color: #6699ff;
+	}
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #D4CDDC;
+	}
+a:hover, a:focus, a:active { 
+	color: #9685BA;
+	}
+abbr {
+	border-bottom: none;
+	}
+
+
+/* specific divs */
+.page-wrapper { 
+	background: url(https://skitours.com.ua/sites/default/files/images/glaciers/Matterhorn.jpg) no-repeat top left; 
+width: 600px;
+	display: block;
+	position: static;
+    
+		}
+
+.intro { 
+	
+	}
+.design-selection {
+	z-index: 2;
+	line-height: 1;
+	font: 1em;
+	 position: fixed;
+  top: 10px;
+  right:0;
+	width:150px;
+	padding: 0 20px 20px 20px;
+	float: left;
+	text-align: top;
+	margin: 0;
+}
+.design-name {
+	font: italic normal 1em comic, sans-serif;
+	color: #6699ff;
+}
+.designer-name {
+	font: italic normal 0.5em comic, sans-serif;
+	color: #1a66ff
+}
+.design-archives {
+		z-index: 2;
+	line-height: 1;
+	font: 1em;
+	 position: fixed;
+  bottom: 40px;
+  right:0;
+	width:150px;
+	padding: 0 20px 5px 20px;
+	float: left;
+	text-align: top;
+	margin: 0;
+}
+.zen-resources {
+		z-index: 2;
+	line-height: 1;
+	font: 1em;
+	 position: fixed;
+  bottom: 150px;
+  right:0;
+	width:150px;
+	padding: 20px 20px 5px 20px;
+	float: left;
+	text-align: top;
+	margin: 0;
+}
+
+
+header h1 { 
+		
+	
+	
+	}
+header h2 { 
+	
+	width:250px;
+	padding: 320px 10px 0px 350px;
+	text-align: center;
+
+}
+.preamble {
+	order: 1;
+	padding:10px 20px 20px 20px;
+	width: 600px;
+	float: left;
+}
+.summary {
+	padding: 5px 20px 10px 10px;
+	 
+	margin: 5px 20px 20px 10px; 
+	width: 200px; 
+	float: right;
+	}
+
+.explanation {
+	order: 2;
+}
+.supporting {	
+	padding-left: 10px; 
+	margin-bottom: 40px;
+	}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  right:0;
+  height: 30px;
+  
+}
